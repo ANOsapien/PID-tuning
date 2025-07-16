@@ -16,7 +16,7 @@ df = df.dropna()
 
 # Define columns
 pid_cols = ['Kp_theta', 'Ki_theta', 'Kd_theta', 'Kp_pos', 'Ki_pos', 'Kd_pos']
-outcome_cols = ['Avg_Reward', 'Avg_Time_s', 'Perfect_Trials']
+outcome_cols = ['Avg_Time_s', 'Perfect_Trials']
 all_cols = pid_cols + outcome_cols
 
 # Standardize

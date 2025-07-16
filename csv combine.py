@@ -3,7 +3,7 @@ import glob
 import os
 
 # Set your folder path
-folder_path = 'C:/Users/anany/OneDrive - Indian Institute of Technology Bombay/Desktop/PID PCA/PID-tuning/GA CSV/'  # 🔁 Change this
+folder_path = '/home/ananya/Desktop/PID TUNING/PID-tuning/GA CSV/'  # 🔁 Change this
 csv_files = sorted(glob.glob(os.path.join(folder_path, '*.csv')))
 
 # Read and concatenate all files as-is (including repeated headers)
